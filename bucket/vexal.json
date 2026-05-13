@@ -1,0 +1,19 @@
+{
+    "version": "1.5.4",
+    "description": "Developer workflow CLI with dependency graph, AI tooling, and repo automation.",
+    "homepage": "https://www.vexal.io/",
+    "license": "BSD-3-Clause",
+    "url": "https://github.com/PinedaVictor/vexal/releases/download/v1.5.4/vexal_windows_amd64.zip",
+    "hash": "sha256:8ee9fcf6ab34cf9efa530e04220c8cc93f89895753faedb51ad7bae7b0b7d952",
+    "bin": "vx.exe",
+    "checkver": {
+        "github": "https://github.com/PinedaVictor/vexal"
+    },
+    "autoupdate": {
+        "url": "https://github.com/PinedaVictor/vexal/releases/download/v$version/vexal_windows_amd64.zip",
+        "hash": {
+            "url": "https://github.com/PinedaVictor/vexal/releases/download/v$version/checksums.txt",
+            "regex": "([a-fA-F0-9]+)\\s+vexal_windows_amd64.zip"
+        }
+    }
+}
