@@ -4,7 +4,7 @@
     "homepage": "https://www.vexal.io/",
     "license": "BSD-3-Clause",
     "url": "https://github.com/PinedaVictor/vexal/releases/download/v1.5.6/vexal_windows_amd64.zip",
-    "hash": "sha256:90f99bdef2695c0388ca25e980abc32ca546787e90fa765d248712cac3c5ff4d",
+    "hash": "sha256:8fdea8053100ee26496564e4d15b38b29a6374940823493abfed70ef60421377",
     "bin": "vx.exe",
     "checkver": {
         "github": "https://github.com/PinedaVictor/vexal"
